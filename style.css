@@ -1,0 +1,223 @@
+/* Reset de estilos para garantir consistência entre navegadores */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos globais */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* Estilos para o cabeçalho */
+header {
+  background-color: #fff;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+#navbar-menu {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* Estilos para a seção de banner */
+#banner {
+  text-align: center;
+  padding: 0px 0px;
+  color: #fff;
+  position: relative; /* Adicionada a propriedade 'position' */
+  z-index: -1; /* Adicionada a propriedade 'z-index' */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #333;
+}
+
+#banner h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#banner p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+/* Estilos para a seção "Sobre Nós" */
+#sobre h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Estilos para a seção "Nossos Serviços" */
+#servicos h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.servico {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.servico img {
+  width: 200px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.servico h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* Estilos para a seção "Nossos Produtos" */
+#produtos h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.produto {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.produto img {
+  width: 800px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.produto h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* Estilos para a seção "Entre em Contato" */
+#contato h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Estilos para o rodapé */
+footer {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+footer ul li {
+  margin: 0 10px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+#sobre {
+  text-align: center;
+}
+
+#sobre h2{
+  text-align: left;
+}
+
+.container-sobre{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: left;
+}
+
+.container-about{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#sobre h1{
+  text-align: left;
+}
+
+li{
+  list-style-type: none;
+}
+
+a{
+  color: inherit;
+}
+
+#produtos h1{
+  text-align: center;
+}
+
+.product-container{
+  text-align: center;
+}
